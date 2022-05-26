@@ -126,12 +126,13 @@
             border-bottom-right-radius: 40px ;
             text-align: center;
             width:50%;
-            padding-top:25px ;
-            margin-top: 50%;
+            padding-top:30px ;
+            margin-top: 46%;
         }
         .ofer{
             text-align: center;
             color: white;
+            
         }
     
     .lo-mas-vendido{
@@ -192,6 +193,7 @@
         top:20px;
         font-size: 80px;
         cursor: pointer;
+        visibility:hidden;
         
         
     }  
@@ -225,6 +227,9 @@
     }
     .divtexto{
         display: none;
+    }
+    .menu-hamburger{
+        visibility: visible;
     }
    /*  .logoprincipal{
         display: none;
